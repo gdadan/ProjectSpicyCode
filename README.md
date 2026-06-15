@@ -205,7 +205,6 @@ public long GetTotalPrice(StatType statType, int count) { ... }
 | **ExcelToJsonMenu / JsonToExcelMenu** | 기획 데이터(Excel) ↔ JSON 양방향 변환 파이프라인 |
 | **ResetUserDataMenu** | 개발용 유저 세이브 초기화 |
 
-→ 아티스트·기획 협업의 수작업을 줄이는 **파이프라인 관점**과, **AI를 실무에 활용하는 능력**을 함께 보여주는 영역입니다.
 
 🔗 [5_EditorTools](./5_EditorTools)
 
@@ -217,7 +216,6 @@ public long GetTotalPrice(StatType statType, int count) { ... }
 
 - **출시를 향한 전체 구조 설계** : 백엔드 세이브, 광고, 업적, Addressables까지 엮인 **실제 출시를 목표로 한 게임의 전체 구조**를 2인 팀에서 직접 다루며, 시스템 간 의존성을 정리하는 법을 배우고 있습니다.
 - **데이터 주도 설계의 심화** : 스킬·스탯·강화 수치를 전부 데이터로 빼, 기획 변경에 코드 수정 없이 대응하는 구조를 체득했습니다.
-- **성장의 연속선** : [촐랑이](https://github.com/gdadan/CholangsAdventure)의 `enum` 분기 → [섀도우 헌터](https://github.com/gdadan/ShadowHunterCode)의 추상 클래스 → 여기서의 **데이터 주도 + 상속 계층 + Template Method**로, 같은 문제를 점점 더 나은 구조로 풀어왔습니다.
 - **AI 활용** : 반복 작업을 AI로 자동화해 본질적인 게임 로직에 더 집중할 수 있었습니다.
 
 <br/>
