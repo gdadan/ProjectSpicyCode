@@ -67,8 +67,6 @@ public static void Init()
 - **세이브/로드 연동** : 앱 일시정지(`OnApplicationPause`)·종료(`OnApplicationQuit`) 시 유저 데이터를 자동 저장.
 - **씬 전환 정리** : `Clear()`로 UI·오브젝트·풀 상태를 일괄 초기화.
 
-> 📌 매니저 허브 구조 자체는 널리 쓰이는 패턴을 채택한 것이고, **백엔드 서버(뒤끝) 연동·유저 세이브 복원·콘텐츠 매니저 구성**이 직접 설계·구현한 부분입니다.
-
 🔗 [Managers.cs](./1_Core/Managers.cs) · [PoolManager.cs](./1_Core/PoolManager.cs) · [ResourceManager.cs](./1_Core/ResourceManager.cs) · [ObjectManager.cs](./1_Core/ObjectManager.cs)
 
 <br/>
@@ -118,8 +116,6 @@ MonsterController GetChainMonster(Vector3 origin, float min, float max, ...)
     ...
 }
 ```
-
-> 💡 **회고** : [섀도우 헌터](https://github.com/gdadan/ShadowHunterCode)의 추상 클래스 스킬 시스템이, 여기서는 **데이터 주도 + Repeat/Sequence 이원화**로 한 단계 더 발전했습니다.
 
 🔗 [SkillBase.cs](./2_Skill/SkillBase.cs) · [RepeatSkill.cs](./2_Skill/RepeatSkill.cs) · [SequenceSkill.cs](./2_Skill/SequenceSkill.cs) · [ChainLightning.cs](./2_Skill/ChainLightning.cs)
 
